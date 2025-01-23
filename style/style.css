@@ -1,0 +1,307 @@
+/* algemene stijlen */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E5DEEB;
+    color: #333;
+    line-height: 1.4;
+    padding: 0;
+}
+
+#index {
+    background-image: url(../img/achtergrondindex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#duurzaamheid {
+    background-image: url(../img/duurzaamheidachtergrond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#overmij {
+    background-image: url(../img/achtergrondovermij.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section p {
+    margin-bottom: 30px;
+}
+
+div img {
+    max-width: 100%;
+}
+
+h1,
+h2 {
+    font-family: "bubblegum-pop-highlight", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.7em;
+}
+
+/* knoppen/a */
+.knoppen {
+    justify-content: center;
+    background-color: #ff90a0;
+    color: #fff;
+    border: solid 0.1em pink;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-size: 1em;
+    margin-top: 10em;
+    transition: transform 0.2s ease;
+    box-shadow: 6px 6px pink;
+    text-decoration: none;
+}
+
+.knoppen:active {
+    transform: scale(0.95);
+}
+
+/* Header */
+header {
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 100%;
+}
+
+/* #indexpagina Section 1 */
+#index section:nth-child(1) {
+    background-color: #ffefe8;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+/* #indexpagina section 2*/
+#index section:nth-child(2) {
+    background-color: #CCC3DF;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+#index section:nth-child(2) img {
+    margin-bottom: 10px;
+}
+
+/* #indexpagina Section 3 */
+#index section:nth-child(3) {
+    background-color: #ffefe8;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 30px;
+    padding-bottom: 80px;
+}
+
+#index section:nth-child(3) div img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+/* Duurzamheidspagina section algemeen */
+
+#duurzaamheid section {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+#duurzaamheid section div {
+    gap: 15px;
+    padding: 0px;
+}
+
+/* #Duurzaamheidspagina section 1 */
+
+#duurzaamheid section:nth-child(1) {
+    background-color: #ffefe8;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#duurzaamheid section:nth-child(1) div {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#duurzaamheid section:nth-child(1) img {
+    padding: 10px;
+    background-color: #CCC3DF;
+    border-radius: 30px;
+    display: flex;
+    width: 8em;
+    margin-right: 0em;
+}
+
+/* Duurzamheidspagina section 2 */
+
+#duurzaamheid section:nth-child(2) {
+    background-color: #CCC3DF;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#duurzaamheid section:nth-child(2) img {
+    padding: 10px;
+    background-color: #ffefe8;
+    border-radius: 30px;
+    display: flex;
+    float: right;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* #duurzaamheidspagina section 3 */
+#duurzaamheid section:nth-child(3) img {
+    padding: 10px;
+    background-color: #CCC3DF;
+    border-radius: 30px;
+    display: flex;
+    float: left;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#duurzaamheid section:nth-child(3) {
+    padding-bottom: 80px;
+    background-color: #ffefe8;
+}
+
+/* overmij 1e section */
+#overmij section:nth-child(1) {
+    background-color: #ffefe8;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#overmij section:nth-child(1) div {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.fotozwemmenmilou {
+    display: flex;
+    width: 10em;
+    height: 14em;
+    margin-right: 0;
+}
+
+.bladmettekst {
+    height: 9em;
+}
+
+
+/* overmij 2e section */
+#overmij section:nth-child(2) {
+    background-color: #CCC3DF;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#overmij section:nth-child(2) div {
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    border-radius: 30px;
+    margin-bottom: 0em;
+    display: flex;
+    flex-direction: row;
+}
+
+#overmij section:nth-child(2) img {
+    padding: 10px;
+    background-color: #ffefe8;
+    border-radius: 30px;
+    display: flex;
+    width: 10em;
+    height: 15em;
+    margin-left: 1em;
+}
+
+/* overmij 3e section */
+#overmij section:nth-child(3) {
+    background-color: #ffefe8;
+    padding: 20px;
+    padding-top: 25px;
+    border-radius: 30px;
+    padding-bottom: 110px;
+}
+
+#overmij section:nth-child(3) img {
+    max-width: 100%;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 22px;
+    background-color: #867D8C;
+    border: 3px solid white;
+    border-radius: 2em;
+    position: fixed;
+    bottom: 0;
+    width: 19em;
+}
+
+footer img {
+    width: 4em;
+    overflow: clip;
+}
